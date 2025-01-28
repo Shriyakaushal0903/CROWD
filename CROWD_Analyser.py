@@ -10,10 +10,10 @@ import mysql.connector
 def fetch_data(query):
     try:
         connection = mysql.connector.connect(
-            host='localhost',  # Replace with your MySQL host
-            user='root',  # Replace with your MySQL username
-            password='your_new_password',  # Replace with your MySQL password 
-            database='newschema1'  # Replace with your database name
+            host='Host_name',  # Replace with your MySQL host
+            user='Username',  # Replace with your MySQL username
+            password='your_password',  # Replace with your MySQL password 
+            database='schema1'  # Replace with your database name
         )
         df = pd.read_sql(query, connection)
         connection.close()
