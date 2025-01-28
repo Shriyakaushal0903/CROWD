@@ -17,15 +17,15 @@ The table structure used for the application is illustrated in the following scr
 ![Picture1](https://github.com/user-attachments/assets/96cfc091-0289-482b-be16-cace2999b86b)
  
 The columns in the table are as follows:
-•	State: The name of the state.
-•	District: The name of the district.
-•	Today (T): Represents today's rainfall categories.
-•	Till Date: Cumulative rainfall categories till the current date.
-•	T+1 Day to T+5 Day: Forecasted rainfall categories for the next five days.
-•	CROP: The name of crop associated with the data.
-•	ID: A unique identifier for each record.
-•	Weekly: Weekly rainfall categories
-•	date_today: The current date in the record.
+1. State: The name of the state.
+2. District: The name of the district.
+3. Today (T): Represents today's rainfall categories.
+4. Till Date: Cumulative rainfall categories till the current date.
+5. T+1 Day to T+5 Day: Forecasted rainfall categories for the next five days.
+6. CROP: The name of crop associated with the data.
+7. ID: A unique identifier for each record.
+8. Weekly: Weekly rainfall categories
+9. date_today: The current date in the record.
 
 # INSTRUCTIONS FOR USE
 Step 1: Once python is installed, download all the files mentioned here in this link: https://tinyurl.com/CROWD-Monitor
